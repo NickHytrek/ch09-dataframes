@@ -30,4 +30,4 @@ opponents <- c("Green Bay Packers", "San Francisco 49ers", "Tennessee Titans", "
 
 ## Add the vector of opponents into the data frame
 
-rbind(Seahawks, opponents)
+Seahawks$opponents <- opponents
